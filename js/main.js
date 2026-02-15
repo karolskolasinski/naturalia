@@ -46,15 +46,25 @@ window.onload = function () {
 };
 
 const header = document.getElementById("x-header");
-window.addEventListener("scroll", () => {
-  if (window.scrollY > 10) {
-    header.classList.remove("bg-transparent");
-    header.classList.add("bg-black");
+let triggerPoint = window.innerHeight - 150;
+const updateHeaderBackground = () => {
+  if (window.scrollY > triggerPoint) {
+    header.classList.remove("bg-white/20");
+    header.classList.add("bg-white");
   } else {
-    header.classList.remove("bg-black");
-    header.classList.add("bg-transparent");
+    header.classList.remove("bg-white");
+    header.classList.add("bg-white/20");
   }
+};
+
+window.addEventListener("resize", () => {
+  triggerPoint = window.innerHeight - 150;
+  updateHeaderBackground();
 });
+
+window.addEventListener("scroll", updateHeaderBackground);
+window.addEventListener("DOMContentLoaded", updateHeaderBackground);
+
 
 new Rellax(".rellax", { speed: -10 });
 
