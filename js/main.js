@@ -78,9 +78,10 @@ new Splide(".splide", {
       perPage: 1,
     },
   },
-  // classes: {
-  //   page: "splide__pagination__page !bg-indigo-600 mt-10",
-  // },
+  classes: {
+    page: "splide__pagination__page !bg-indigo-600 mt-10",
+    arrows: "hidden",
+  },
 }).mount();
 
 // const form = document.getElementById("contact-form");
