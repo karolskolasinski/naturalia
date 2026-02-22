@@ -1,7 +1,6 @@
 import "./components/header.js";
 import "./components/footer.js";
 import "./components/review.js";
-import { CountUp } from "./countUp.min.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   const hamburgerCheckbox = document.getElementById("hamburger");
@@ -37,14 +36,6 @@ phone.addEventListener("click", () => {
   }
 });
 
-window.onload = function () {
-  const countUp = new CountUp("count-up", 25, {
-    enableScrollSpy: true,
-    startVal: 1,
-  });
-  countUp.start();
-};
-
 const header = document.getElementById("x-header");
 let triggerPoint = window.innerHeight - 150;
 const updateHeaderBackground = () => {
@@ -65,7 +56,6 @@ window.addEventListener("resize", () => {
 window.addEventListener("scroll", updateHeaderBackground);
 window.addEventListener("DOMContentLoaded", updateHeaderBackground);
 
-
 new Rellax(".rellax", { speed: -10 });
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -77,3 +67,39 @@ document.addEventListener("DOMContentLoaded", () => {
     easing: "ease-in-out",
   });
 });
+
+new Splide(".splide", {
+  type: "loop",
+  autoplay: true,
+  drag: true,
+  perPage: 3,
+  breakpoints: {
+    640: {
+      perPage: 1,
+    },
+  },
+  // classes: {
+  //   page: "splide__pagination__page !bg-indigo-600 mt-10",
+  // },
+}).mount();
+
+// const form = document.getElementById("contact-form");
+// const status = document.getElementById("form-status");
+// form.addEventListener("submit", async function (e) {
+//   e.preventDefault();
+//
+//   const formData = new FormData(form);
+//   const response = await fetch(form.action, {
+//     method: form.method,
+//     body: formData,
+//     headers: { "Accept": "application/json" },
+//   });
+//
+//   if (response.ok) {
+//     form.reset();
+//     status.classList.remove("hidden");
+//     setTimeout(() => status.classList.add("hidden"), 5000);
+//   } else {
+//     console.error("Błąd przy wysyłaniu formularza");
+//   }
+// });
