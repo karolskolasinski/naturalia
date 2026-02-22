@@ -7,13 +7,23 @@
 
 @theme {
     --breakpoint-xs: 425px;
+    --max-width-8xl: 96rem;
     --font-modern-symphony: "Modern Symphony";
     --font-sans: "Lato", sans-serif;
     --font-montserrat: "Montserrat", sans-serif;
+    --color-primary-100: #f1f9e3;
+    --color-primary-200: #e2f2c4;
+    --color-primary-300: #c9e891;
+    --color-primary-400: #addd5a;
+    --color-primary-500: #88c919;
+    --color-primary-600: #6ea314;
+    --color-primary-700: #527a0f;
+    --color-primary-800: #37510a;
+    --color-primary-900: #1b2905;
 }
 
 ::selection {
-    @apply bg-lime-400;
+    @apply bg-primary-400;
 }
 
 .wave {
@@ -43,7 +53,7 @@
 }
 
 .button {
-    @apply relative overflow-hidden px-6 inline-flex gap-2 h-12 items-center justify-center rounded-sm text-white bg-lime-500 hover:bg-lime-400 hover:text-black border border-lime-500 font-medium shadow-[0px_2px_4px_0px_rgba(10,13,18,0.1)] shadow-[0px_-3px_0px_0px_rgba(10,13,18,0.1)_inset] shadow-[0px_0px_0px_2px_rgba(10,13,18,0.25)_inset] transition-colors duration-300 [transition-timing-function:cubic-bezier(0.175,0.885,0.32,1.275)] active:translate-y-[1px] cursor-pointer;
+    @apply relative overflow-hidden px-6 inline-flex gap-2 h-12 items-center justify-center rounded-sm text-white bg-primary-500 hover:bg-primary-400 hover:text-black border border-primary-500 font-medium shadow-[0px_2px_4px_0px_rgba(10,13,18,0.1)] shadow-[0px_-3px_0px_0px_rgba(10,13,18,0.1)_inset] shadow-[0px_0px_0px_2px_rgba(10,13,18,0.25)_inset] transition-colors duration-300 [transition-timing-function:cubic-bezier(0.175,0.885,0.32,1.275)] active:translate-y-[1px] cursor-pointer;
 }
 
 .button::after {
