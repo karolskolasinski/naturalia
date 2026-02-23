@@ -74,12 +74,11 @@ new Splide(".splide", {
   drag: true,
   perPage: 3,
   breakpoints: {
-    640: {
-      perPage: 1,
-    },
+    640: { perPage: 1 },
+    768: { perPage: 2 },
   },
   classes: {
-    page: "splide__pagination__page !bg-indigo-600 mt-10",
+    page: "splide__pagination__page !bg-primary-600 mt-10",
     arrows: "hidden",
   },
 }).mount();

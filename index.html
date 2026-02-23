@@ -203,7 +203,7 @@
               <img src="/img/logo.svg" alt="naturalia sygnet" class="h-8 z-10 self-end">
               <span class="font-modern-symphony">NATURALIA</span>
             </span>
-            <span class="text-gray-700">
+            <span class="text-gray-500">
               to gabinet naturopatyczny oferujący terapie naturalne oparte na wiedzy z zakresu
               naturopatii, fitoterapii, hirudoterapii oraz różnych, ciekawych badań naukowych.
             </span>
@@ -455,47 +455,50 @@
         </div>
       </section>
 
-      <section
-        class="relative h-96 w-full flex flex-col gap-12 items-center justify-center px-4 text-white overflow-hidden rellax-wrapper"
-      >
-        <!-- Parallax background -->
-        <!--        <div-->
-        <!--          class="rellax absolute top-[-180%] xl:top-[-190%] w-full h-[350%] bg-[url('../img/kgf-3.webp')] lg:bg-[url('../img/kgf-2.webp')] bg-top-left bg-no-repeat bg-[length:240%_auto] sm:bg-[length:180%_auto] md:bg-[length:165%_auto] lg:bg-[length:150%_auto] xl:bg-[length:100%_auto]"-->
-        <!--          data-rellax-percentage="0"-->
-        <!--        >-->
-        <!--        </div>-->
+      <section class="bg-gray-100 scroll-mt-20" id="xxxxxxxxxxxxxx">
+        <div class="flex flex-col gap-10 md:gap-20 px-4 md:px-8 py-10 md:py-20 max-w-7xl mx-auto">
+          <div class="max-w-3xl mx-auto text-center">
+            <h2
+              class="w-full text-xl font-semibold font-sans text-center leading-12"
+              data-aos="fade-up"
+            >
+              Wspieram organizm w powrocie do równowagi – łagodnie, naturalnie i indywidualnie.
+            </h2>
 
-        <!-- Dark overlay-->
-        <div class="absolute inset-0 bg-black/70 z-10"></div>
+            <p class="text-gray-500 pb-8" data-aos="fade-up">
+              Każdą terapię dobieram w oparciu o potrzeby organizmu, jego możliwości regeneracyjne
+              oraz aktualny stan zdrowia. Łączę wiedzę z zakresu naturoterapii z praktycznym,
+              bezpiecznym podejściem do pracy z dorosłymi, dziećmi i zwierzętami.
+            </p>
 
-        <!-- Content -->
-        <h2 class="w-full text-4xl md:text-5xl font-semibold font-sans text-center leading-12 z-20">
-          Gotowy na trening?
-        </h2>
-
-        <div class="relative z-10 flex justify-center font-outfit uppercase">
-          <a class="button normal-case" href="#contact">Umów się!</a>
+            <a href="#jak-pracuje" class="button">
+              Zobacz, jak pracuję
+            </a>
+          </div>
         </div>
       </section>
 
       <section class="relative bg-white scroll-mt-20" id="reviews">
         <div class="flex flex-col gap-10 md:gap-20 px-4 md:px-8 py-10 md:py-20 max-w-7xl mx-auto">
           <div class="self-center flex flex-col gap-4 items-center">
-            <div class="bg-sky-500 w-fit px-4 rounded-sm text-white" data-aos="fade-up">
+            <div
+              class="border border-primary-500 w-fit px-4 rounded-xl text-primary-500"
+              data-aos="fade-up"
+            >
               Opinie
             </div>
             <h2
               class="w-full text-4xl md:text-5xl font-semibold font-sans text-center leading-12"
               data-aos="fade-up"
             >
-              Co mówią moi podopieczni
+              Co mówią moi pacjenci
             </h2>
           </div>
 
           <div class="px-4 flex flex-col gap-10 items-center lg:grid grid-cols-2">
             <x-review
-              data-content="„Katarzyna to nie tylko utalentowana zawodniczka, ale również doskonała trenerka. Potrafi przekazać swoją wiedzę w bardzo przystępny sposób. Po każdej sesji czuję, że moje uderzenia są bardziej pewne, a gra bardziej przemyślana. Polecam każdemu, kto chce się rozwijać!”"
-              data-name="Marta"
+              data-content="„Do Pani Natalii trafiłam z przewlekłym zmęczeniem i problemami trawiennymi. Już po kilku tygodniach poczułam realną poprawę – mam więcej energii, lepiej śpię i wrócił komfort po posiłkach. Bardzo cenię indywidualne podejście i spokojną atmosferę podczas wizyt.”"
+              data-name="Anna"
               data-city="Gdańsk"
               class="h-full p-4"
               data-aos="fade-up"
@@ -503,27 +506,27 @@
             </x-review>
 
             <x-review
-              data-content="„Kasia prowadzi treningi w taki sposób, że nawet trudniejsze elementy techniczne stają się zrozumiałe i łatwe do przećwiczenia. Bardzo cenię jej podejście — konkretne, skupione na szczegółach, ale jednocześnie pełne spokoju. Po kilku tygodniach zauważyłem ogromną poprawę w kontroli piłeczki.”"
-              data-name="Piotr"
-              data-city="Gdańsk"
+              data-content="„Korzystałam z hirudoterapii i wsparcia ziołowego przy problemach z krążeniem. Wszystko było dokładnie wyjaśnione, bez pośpiechu i z dużym poczuciem bezpieczeństwa.”"
+              data-name="Weronika"
+              data-city="Kartuzy"
               class="h-full p-4"
               data-aos="fade-up"
             >
             </x-review>
 
             <x-review
-              data-content="„Świetna trenerka z ogromną wiedzą. Każdy trening jest przemyślany i dopasowany do mojego stylu gry. Kasia potrafi szybko wychwycić błędy i podpowiedzieć proste poprawki, które od razu dają efekt. Widać, że zależy jej na realnym rozwoju zawodnika.”"
-              data-name="Justyna"
-              data-city="Gdańsk"
-              class="h-full p-4"
-              data-aos="fade-up"
-            >
-            </x-review>
-
-            <x-review
-              data-content="„Na treningach panuje świetna atmosfera, ale tempo i poziom są naprawdę solidne. Kasia ma dar tłumaczenia i niesamowitą cierpliwość. Czuję, że krok po kroku buduję pewność siebie przy stole, a moje uderzenia stały się dużo bardziej precyzyjne.”"
-              data-name="Natalia"
+              data-content="„Przyszłam z silnym stresem i objawami wypalenia. Najbardziej pomogło mi holistyczne spojrzenie – nie tylko na objawy, ale na cały styl życia. Dostałam konkretne zalecenia, które stopniowo wprowadzałam. Dziś czuję większy spokój i równowagę.”"
+              data-name="Marlena"
               data-city="Gdynia"
+              class="h-full p-4"
+              data-aos="fade-up"
+            >
+            </x-review>
+
+            <x-review
+              data-content="„Zgłosiliśmy się z naszym psem, który miał problemy skórne. Terapia została dobrana z uwzględnieniem jego stanu zdrowia i temperamentu. Efekty przyszły szybciej, niż się spodziewaliśmy, a opieka była bardzo empatyczna i profesjonalna.”"
+              data-name="Marek"
+              data-city="Gdańsk"
               class="h-full p-4"
               data-aos="fade-up"
             >
@@ -535,7 +538,10 @@
       <section class="bg-gray-50 py-10 md:py-20 scroll-mt-20" id="faq">
         <div class="flex flex-col gap-10 md:gap-20 px-4 md:px-8 max-w-7xl mx-auto">
           <div class="self-center flex flex-col gap-4 items-center">
-            <div class="bg-sky-500 w-fit px-4 rounded-sm text-white" data-aos="fade-up">
+            <div
+              class="border border-primary-500 w-fit px-4 rounded-xl text-primary-500"
+              data-aos="fade-up"
+            >
               FAQ
             </div>
             <h2
@@ -547,40 +553,49 @@
           </div>
 
           <div class="space-y-6" data-aos="fade-up">
-            <div class="border-l-4 border-sky-400 pl-4">
+            <div class="border-l-4 border-primary-400 pl-4">
               <h3 class="text-2xl font-semibold mb-2">
-                Czy prowadzisz treningi dla początkujących?
+                Czy terapie naturalne mogą zastąpić leczenie u lekarza?
               </h3>
-              <p class="text-gray-700">
-                Tak, prowadzę treningi tenisa stołowego dla osób na każdym poziomie zaawansowania -
-                od kompletnych początkujących po zaawansowanych zawodników. Program dostosowuję
-                indywidualnie do Twoich umiejętności i celów.
+              <p class="text-gray-600">
+                Nie. Terapie stosowane w gabinecie mają charakter wspierający i nie zastępują
+                konsultacji lekarskiej ani leczenia prowadzonego przez lekarza lub lekarza
+                weterynarii. W przypadku poważnych, ostrych lub przewlekłych dolegliwości zawsze
+                zalecana jest równoległa opieka medyczna.
               </p>
             </div>
 
-            <div class="border-l-4 border-sky-400 pl-4">
-              <h3 class="text-2xl font-semibold mb-2">Gdzie odbywają się treningi?</h3>
-              <p class="text-gray-700">
-                Treningi odbywają się najczęściej w Gdańsku przy ulicy Janusza Meissnera 1.
-                Lokalizacja jest dobrze skomunikowana i dysponuje profesjonalnym sprzętem.
+            <div class="border-l-4 border-primary-400 pl-4">
+              <h3 class="text-2xl font-semibold mb-2">
+                Jak wygląda pierwsza wizyta?
+              </h3>
+              <p class="text-gray-600">
+                Pierwsze spotkanie obejmuje szczegółowy wywiad zdrowotny, omówienie aktualnych
+                dolegliwości, stylu życia oraz dotychczasowych badań (jeśli są dostępne). Na tej
+                podstawie dobierana jest indywidualna strategia wsparcia. Wizyta zazwyczaj trwa
+                około 1 godziny.
               </p>
             </div>
 
-            <div class="border-l-4 border-sky-400 pl-4">
-              <h3 class="text-2xl font-semibold mb-2">Ile kosztuje trening tenisa stołowego?</h3>
-              <p class="text-gray-700">
-                Ceny treningów ustalamy indywidualnie w zależności od częstotliwości zajęć i poziomu
-                zaawansowania. Skontaktuj się ze mną, aby omówić szczegóły i ustalić najlepszą opcję
-                dla Ciebie.
+            <div class="border-l-4 border-primary-400 pl-4">
+              <h3 class="text-2xl font-semibold mb-2">
+                Czy terapie są bezpieczne dla dzieci i zwierząt?
+              </h3>
+              <p class="text-gray-600">
+                Tak, jednak każda terapia dobierana jest indywidualnie z uwzględnieniem wieku, stanu
+                zdrowia oraz możliwości organizmu. W przypadku zwierząt uwzględniana jest ich
+                fizjologia, zachowanie i bezpieczeństwo.
               </p>
             </div>
 
-            <div class="border-l-4 border-sky-400 pl-4">
-              <h3 class="text-2xl font-semibold mb-2">Jak długo trwa jeden trening?</h3>
-              <p class="text-gray-700">
-                Standardowy trening indywidualny trwa 60 minut. Dla osób zaawansowanych możliwe są
-                dłuższe sesje treningowe (90-120 minut) z rozbudowaną częścią taktyczną i
-                sparingową.
+            <div class="border-l-4 border-primary-400 pl-4">
+              <h3 class="text-2xl font-semibold mb-2">
+                Ile wizyt potrzeba, aby zobaczyć efekty?
+              </h3>
+              <p class="text-gray-600">
+                To kwestia bardzo indywidualna i zależy od rodzaju problemu, jego czasu trwania oraz
+                zaangażowania w realizację zaleceń. Część osób odczuwa poprawę po kilku tygodniach,
+                w innych przypadkach proces wymaga dłuższego wsparcia i systematycznej pracy.
               </p>
             </div>
           </div>
@@ -592,20 +607,74 @@
           class="flex flex-col items-center gap-10 md:gap-20 px-4 md:px-8 py-10 md:py-20 max-w-7xl mx-auto"
         >
           <div class="self-center flex flex-col gap-4 items-center">
-            <div class="bg-sky-500 w-fit px-4 rounded-sm text-white" data-aos="fade-up">
+            <div
+              class="border border-primary-500 w-fit px-4 rounded-xl text-primary-500"
+              data-aos="fade-up"
+            >
               Kontakt
             </div>
             <h2
               class="w-full text-4xl md:text-5xl font-semibold font-sans text-center leading-12"
               data-aos="fade-up"
             >
-              Umów się na trening
+              Umów się na konsultację
             </h2>
           </div>
 
-          <p class="text-gray-800 leading-7 text-center" data-aos="fade-up">
-            Aby ustalić dogodny termin, skontaktuj się ze mną korzystając z poniższych informacji.
-          </p>
+          <div>
+            <p class="text-gray-800 leading-7 text-center" data-aos="fade-up">
+              Aby ustalić dogodny termin, skontaktuj się ze mną korzystając z poniższego formularza.
+            </p>
+
+            <form
+              id="contact-form"
+              action="https://formspree.io/f/"
+              method="POST"
+              class="flex flex-col gap-4 md:gap-10 w-full max-w-[60rem] pb-2 md:flex-row"
+              data-aos="fade-up"
+            >
+              <div class="flex-1 flex flex-col gap-8">
+                <label>Imię i nazwisko:
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Podaj swoje imię i nazwisko"
+                    required
+                    autocomplete="off"
+                    class="border border-gray-300"
+                  >
+                </label>
+
+                <label>Email:
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Podaj swój adres email"
+                    required
+                    autocomplete="off"
+                    class="border border-gray-300"
+                  >
+                </label>
+              </div>
+
+              <label class="flex-1">
+                Wiadomość:
+                <textarea
+                  name="message"
+                  rows="8"
+                  placeholder="Napisz swoją wiadomość"
+                  required
+                  class="border border-gray-300"
+                ></textarea>
+              </label>
+            </form>
+
+            <p id="form-status" class="text-green-600 hidden">
+              Wiadomość została wysłana. Odpowiemy najszybciej jak to możliwe.
+            </p>
+
+            <button type="submit" class="button" form="contact-form">Wyślij</button>
+          </div>
 
           <div class="flex-1 flex flex-col gap-4">
             <div class="flex gap-2 justify-center items-center">
