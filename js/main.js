@@ -17,25 +17,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-let flag = false;
-document.addEventListener("mousemove", () => {
-  flag = true;
-});
-
-const phoneEncoded = "NjY4ODM5ODMz";
-const phoneDecoded = window.atob(phoneEncoded);
-const phone = document.querySelector("#phone");
-phone.addEventListener("click", () => {
-  if (flag) {
-    const a = document.createElement("a");
-    a.href = `tel:${phoneDecoded}`;
-    a.innerHTML = phoneDecoded;
-    a.classList.add("phone");
-    phone.parentNode.appendChild(a);
-    phone.parentNode.removeChild(phone);
-  }
-});
-
 const header = document.getElementById("x-header");
 let triggerPoint = window.innerHeight - 150;
 const updateHeaderBackground = () => {

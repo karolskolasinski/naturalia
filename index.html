@@ -552,12 +552,12 @@
             </h2>
           </div>
 
-          <div class="space-y-6" data-aos="fade-up">
+          <div class="space-y-12" data-aos="fade-up">
             <div class="border-l-4 border-primary-400 pl-4">
               <h3 class="text-2xl font-semibold mb-2">
                 Czy terapie naturalne mogą zastąpić leczenie u lekarza?
               </h3>
-              <p class="text-gray-600">
+              <p class="text-gray-600 text-[1.1rem]">
                 Nie. Terapie stosowane w gabinecie mają charakter wspierający i nie zastępują
                 konsultacji lekarskiej ani leczenia prowadzonego przez lekarza lub lekarza
                 weterynarii. W przypadku poważnych, ostrych lub przewlekłych dolegliwości zawsze
@@ -569,7 +569,7 @@
               <h3 class="text-2xl font-semibold mb-2">
                 Jak wygląda pierwsza wizyta?
               </h3>
-              <p class="text-gray-600">
+              <p class="text-gray-600 text-[1.1rem]">
                 Pierwsze spotkanie obejmuje szczegółowy wywiad zdrowotny, omówienie aktualnych
                 dolegliwości, stylu życia oraz dotychczasowych badań (jeśli są dostępne). Na tej
                 podstawie dobierana jest indywidualna strategia wsparcia. Wizyta zazwyczaj trwa
@@ -581,7 +581,7 @@
               <h3 class="text-2xl font-semibold mb-2">
                 Czy terapie są bezpieczne dla dzieci i zwierząt?
               </h3>
-              <p class="text-gray-600">
+              <p class="text-gray-600 text-[1.1rem]">
                 Tak, jednak każda terapia dobierana jest indywidualnie z uwzględnieniem wieku, stanu
                 zdrowia oraz możliwości organizmu. W przypadku zwierząt uwzględniana jest ich
                 fizjologia, zachowanie i bezpieczeństwo.
@@ -592,7 +592,7 @@
               <h3 class="text-2xl font-semibold mb-2">
                 Ile wizyt potrzeba, aby zobaczyć efekty?
               </h3>
-              <p class="text-gray-600">
+              <p class="text-gray-600 text-[1.1rem]">
                 To kwestia bardzo indywidualna i zależy od rodzaju problemu, jego czasu trwania oraz
                 zaangażowania w realizację zaleceń. Część osób odczuwa poprawę po kilku tygodniach,
                 w innych przypadkach proces wymaga dłuższego wsparcia i systematycznej pracy.
@@ -621,84 +621,60 @@
             </h2>
           </div>
 
-          <div>
-            <p class="text-gray-800 leading-7 text-center" data-aos="fade-up">
-              Aby ustalić dogodny termin, skontaktuj się ze mną korzystając z poniższego formularza.
-            </p>
+          <p class="text-gray-800 leading-7 text-center max-w-[25rem]" data-aos="fade-up">
+            Aby ustalić dogodny termin, skontaktuj się ze mną za pomocą poniższego formularza.
+          </p>
 
-            <form
-              id="contact-form"
-              action="https://formspree.io/f/"
-              method="POST"
-              class="flex flex-col gap-4 md:gap-10 w-full max-w-[60rem] pb-2 md:flex-row"
-              data-aos="fade-up"
-            >
-              <div class="flex-1 flex flex-col gap-8">
-                <label>Imię i nazwisko:
-                  <input
-                    type="text"
-                    name="name"
-                    placeholder="Podaj swoje imię i nazwisko"
-                    required
-                    autocomplete="off"
-                    class="border border-gray-300"
-                  >
-                </label>
-
-                <label>Email:
-                  <input
-                    type="email"
-                    name="email"
-                    placeholder="Podaj swój adres email"
-                    required
-                    autocomplete="off"
-                    class="border border-gray-300"
-                  >
-                </label>
-              </div>
-
-              <label class="flex-1">
-                Wiadomość:
-                <textarea
-                  name="message"
-                  rows="8"
-                  placeholder="Napisz swoją wiadomość"
+          <form
+            id="contact-form"
+            action="https://formspree.io/f/"
+            method="POST"
+            class="flex flex-col gap-4 md:gap-10 w-full max-w-[60rem] pb-2 md:flex-row"
+            data-aos="fade-up"
+          >
+            <div class="flex-1 flex flex-col gap-8">
+              <label class="flex flex-col">
+                <span class="pb-2">Imię i nazwisko:</span>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Podaj swoje imię i nazwisko"
                   required
-                  class="border border-gray-300"
-                ></textarea>
+                  autocomplete="off"
+                  class="border border-primary-500 rounded-lg px-4 py-2 focus:outline-primary-500"
+                >
               </label>
-            </form>
 
-            <p id="form-status" class="text-green-600 hidden">
-              Wiadomość została wysłana. Odpowiemy najszybciej jak to możliwe.
-            </p>
-
-            <button type="submit" class="button" form="contact-form">Wyślij</button>
-          </div>
-
-          <div class="flex-1 flex flex-col gap-4">
-            <div class="flex gap-2 justify-center items-center">
-              <!--              <img-->
-              <!--                src="img/icons/phone.png"-->
-              <!--                alt="Telefon kontaktowy trener tenisa stołowego Gdańsk"-->
-              <!--                class="h-6 invert"-->
-              <!--              >-->
-              <span id="phone" class="cursor-pointer">pokaż numer</span>
+              <label class="flex flex-col">
+                <span class="pb-2">Email:</span>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Podaj swój adres email"
+                  required
+                  autocomplete="off"
+                  class="border border-primary-500 rounded-lg px-4 py-2 focus:outline-primary-500"
+                >
+              </label>
             </div>
 
-            <div class="flex gap-2">
-              <!--              <img-->
-              <!--                src="img/icons/marker.png"-->
-              <!--                alt="Lokalizacja treningów tenisa stołowego Gdańsk"-->
-              <!--                class="h-6 invert"-->
-              <!--              >-->
-              <div>
-                <span>Janusza Meissnera 1, </span>
-                <br class="xs:hidden">
-                <span>80-462 Gdańsk</span>
-              </div>
-            </div>
-          </div>
+            <label class="flex flex-col flex-1">
+              Wiadomość:
+              <textarea
+                name="message"
+                rows="8"
+                placeholder="Napisz swoją wiadomość"
+                required
+                class="border border-primary-500 rounded-lg px-4 py-2 focus:outline-primary-500"
+              ></textarea>
+            </label>
+          </form>
+
+          <p id="form-status" class="text-green-600 hidden">
+            Wiadomość została wysłana. Odpowiem najszybciej jak to możliwe.
+          </p>
+
+          <button type="submit" class="button" form="contact-form">Wyślij</button>
         </div>
       </section>
     </main>
