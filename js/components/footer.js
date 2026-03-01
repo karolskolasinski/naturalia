@@ -64,7 +64,7 @@ class Footer extends HTMLElement {
                   </svg>
                 </a>
       
-                <a href="https://www.instagram.com/butterflyttofficial/">
+                <a href="https://instagram.com/">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
@@ -79,9 +79,29 @@ class Footer extends HTMLElement {
             </div>
           </div>
       
-          <small class="py-4 text-center block">
-            2025 - copyright © naturalia.gda.pl
-          </small>
+          <div class="w-full flex flex-col items-center">
+            <small class="py-4 text-center block text-gray-400 max-w-[55rem] space-y-2">
+              <p>
+                <strong>Klauzula informacyjna</strong>: Informacje oraz usługi zawarte na stronie mają
+                charakter edukacyjny i wspierający zdrowie. Terapie naturalne oferowane w gabinecie nie
+                zastępują konsultacji lekarskiej ani leczenia prowadzonego przez lekarza lub lekarza
+                weterynarii.
+              </p>
+        
+              <p>
+                Terapie stosowane w gabinecie nie są diagnozą ani leczeniem chorób w rozumieniu prawa 
+                medycznego. W przypadku poważnych, ostrych lub przewlekłych dolegliwości zalecana jest
+                konsultacja z lekarzem lub lekarzem weterynarii.
+              </p>
+              
+              <strong>Naturopata</strong>, kod zawodu: 323009, <strong>Zielarz-fitoterapeuta</strong>, kod
+              zawodu: 323012 <strong>Technik weterynarii</strong>, kod zawodu: 324002
+            </small>
+        
+            <small class="py-4 text-center block">
+              2026 - copyright © naturalia.gda.pl
+            </small>
+          </div>
         </div>
       </footer>
     `;
