@@ -21,7 +21,7 @@ class Header extends HTMLElement {
             href="${prefix}"
             class="uppercase font-modern-symphony text-3xl hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-primary-500 hover:via-blue-500 hover:to-pink-500 flex items-center gap-2 z-10"
           >
-            <img src="/img/logo.svg" alt="naturalia sygnet" class="h-12">
+            <img src="../../img/logo.svg" alt="naturalia sygnet" class="h-12">
             Naturalia
           </a>
       
