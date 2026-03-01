@@ -37,8 +37,6 @@ window.addEventListener("resize", () => {
 window.addEventListener("scroll", updateHeaderBackground);
 window.addEventListener("DOMContentLoaded", updateHeaderBackground);
 
-new Rellax(".rellax", { speed: -10 });
-
 document.addEventListener("DOMContentLoaded", () => {
   AOS.init({
     once: true,
@@ -48,39 +46,3 @@ document.addEventListener("DOMContentLoaded", () => {
     easing: "ease-in-out",
   });
 });
-
-new Splide(".splide", {
-  type: "loop",
-  autoplay: true,
-  drag: true,
-  perPage: 3,
-  breakpoints: {
-    640: { perPage: 1 },
-    768: { perPage: 2 },
-  },
-  classes: {
-    page: "splide__pagination__page !bg-primary-600 mt-10",
-    arrows: "hidden",
-  },
-}).mount();
-
-// const form = document.getElementById("contact-form");
-// const status = document.getElementById("form-status");
-// form.addEventListener("submit", async function (e) {
-//   e.preventDefault();
-//
-//   const formData = new FormData(form);
-//   const response = await fetch(form.action, {
-//     method: form.method,
-//     body: formData,
-//     headers: { "Accept": "application/json" },
-//   });
-//
-//   if (response.ok) {
-//     form.reset();
-//     status.classList.remove("hidden");
-//     setTimeout(() => status.classList.add("hidden"), 5000);
-//   } else {
-//     console.error("Błąd przy wysyłaniu formularza");
-//   }
-// });
