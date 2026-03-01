@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: "Modern Symphony";
-    src: url("/fonts/modern-symphony-serif.ttf") format("truetype");
+    src: url("../fonts/modern-symphony-serif.ttf") format("truetype");
 }
 
 @theme {
