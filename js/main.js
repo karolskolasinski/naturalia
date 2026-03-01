@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-const header = document.getElementById("x-header");
+const header = document.getElementById("header");
 let triggerPoint = window.innerHeight - 150;
 const updateHeaderBackground = () => {
   if (window.scrollY > triggerPoint) {
