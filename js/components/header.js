@@ -13,8 +13,8 @@ class Header extends HTMLElement {
       >
         <div class="w-full flex items-center justify-between px-4 md:px-8 max-w-7xl mx-auto">
           <nav class="uppercase hidden md:flex items-center gap-3 lg:gap-6 font-bold">
-            <a href="#naturopatia" class="hover:text-primary-500">Naturopatia</a>
-            <a href="#about" class="hover:text-sky-500">O mnie</a>
+            <a href="#about" class="hover:text-primary-500">Naturopatia</a>
+            <a href="o-mnie.html" class="hover:text-sky-500">O mnie</a>
           </nav>
       
           <a
@@ -26,7 +26,7 @@ class Header extends HTMLElement {
           </a>
       
           <nav class="uppercase hidden md:flex items-center gap-3 lg:gap-6 font-bold">
-            <a href="/products" class="hover:text-orange-500">Usługi</a>
+            <a href="jak-pracuje.html" class="hover:text-orange-500">Usługi</a>
             <a href="#contact" class="hover:text-pink-500">Kontakt</a>
           </nav>
       
@@ -57,11 +57,11 @@ class Header extends HTMLElement {
                 </li>
       
                 <li class="md:gap-12 text-xl sm:text-2xl font-semibold">
-                  <a href="#services" class="hover:text-primary-500">O mnie</a>
+                  <a href="o-mnie.html" class="hover:text-primary-500">O mnie</a>
                 </li>
       
                 <li class="md:gap-12 text-xl sm:text-2xl font-semibold">
-                  <a href="#reviews" class="hover:text-primary-500">Usługi</a>
+                  <a href="jak-pracuje.html" class="hover:text-primary-500">Usługi</a>
                 </li>
       
                 <li class="md:gap-12 text-xl sm:text-2xl font-semibold">
