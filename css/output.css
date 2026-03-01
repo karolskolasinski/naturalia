@@ -438,6 +438,9 @@
   .list-image-\[url\(\/img\/icons\/check\.svg\)\] {
     list-style-image: url(/img/icons/check.svg);
   }
+  .list-image-\[url\(img\/icons\/check\.svg\)\] {
+    list-style-image: url(img/icons/check.svg);
+  }
   .grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
@@ -682,6 +685,9 @@
   }
   .bg-\[url\(\'\.\/img\/bg-hero\.jpg\'\)\] {
     background-image: url('./img/bg-hero.jpg');
+  }
+  .bg-\[url\(\'img\/bg-hero\.jpg\'\)\] {
+    background-image: url('img/bg-hero.jpg');
   }
   .from-white {
     --tw-gradient-from: var(--color-white);
