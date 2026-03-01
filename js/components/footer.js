@@ -34,15 +34,22 @@ class Footer extends HTMLElement {
             <div class="flex flex-col gap-4 flex-1">
               <h2 class="text-primary-400 text-2xl font-bold">Kontakt</h2>
       
+              <div class="flex gap-2 items-center items-start">
+                <img src="img/icons/map-marker.svg" alt="adres" class="w-6 xs:w-7 brightness-0 invert" />
+                  ul. Terapeutyczna 22/33
+                  <br>
+                  80-100 Gdańsk
+              </div>
+              
               <div class="flex gap-2 items-center">
-                <img src="img/icons/email.svg" alt="logo" class="w-6 xs:w-7 brightness-0 invert" />
+                <img src="img/icons/email.svg" alt="email" class="w-6 xs:w-7 brightness-0 invert" />
                 <a href="mailto:biuro@naturalia.gda.pl?subject=Kontakt ze strony naturalia.gda.pl">
                   biuro@naturalia.gda.pl
                 </a>
               </div>
       
               <div class="flex gap-2 items-center">
-                <img src="img/icons/phone.svg" alt="logo" class="w-6 xs:w-7 brightness-0 invert" />
+                <img src="img/icons/phone.svg" alt="telefon" class="w-6 xs:w-7 brightness-0 invert" />
                 +48 788 281 440
               </div>
             </div>
