@@ -13,7 +13,7 @@ class Header extends HTMLElement {
       >
         <div class="w-full flex items-center justify-between px-4 md:px-8 max-w-7xl mx-auto">
           <nav class="uppercase hidden md:flex items-center gap-3 lg:gap-6 font-bold">
-            <a href="#about" class="hover:text-primary-500">Naturopatia</a>
+            <a href="${prefix}about" class="hover:text-primary-500">Naturopatia</a>
             <a href="o-mnie.html" class="hover:text-sky-500">O mnie</a>
           </nav>
       
@@ -27,7 +27,7 @@ class Header extends HTMLElement {
       
           <nav class="uppercase hidden md:flex items-center gap-3 lg:gap-6 font-bold">
             <a href="jak-pracuje.html" class="hover:text-orange-500">Usługi</a>
-            <a href="#contact" class="hover:text-pink-500">Kontakt</a>
+            <a href="${prefix}contact" class="hover:text-pink-500">Kontakt</a>
           </nav>
       
           <nav class="md:hidden">
@@ -53,7 +53,7 @@ class Header extends HTMLElement {
                 <li class="pt-16 border-b-1 border-gray-300"></li>
               
                 <li class="md:gap-12 text-xl sm:text-2xl font-semibold">
-                  <a href="#about" class="hover:text-primary-500">Naturopatia</a>
+                  <a href="${prefix}about" class="hover:text-primary-500">Naturopatia</a>
                 </li>
       
                 <li class="md:gap-12 text-xl sm:text-2xl font-semibold">
@@ -65,7 +65,7 @@ class Header extends HTMLElement {
                 </li>
       
                 <li class="md:gap-12 text-xl sm:text-2xl font-semibold">
-                  <a href="/products?ref=mobile" class="hover:text-primary-500">Blog</a>
+                  <a href="/blog.html" class="hover:text-primary-500">Blog</a>
                 </li>
       
                 <li class="w-full flex justify-center">
@@ -108,7 +108,7 @@ class Header extends HTMLElement {
                 </li>
       
                 <li class="flex flex-col items-center justify-end w-full">
-                  <a href="#contact" class="button">Skontaktuj się ze mną</a>
+                  <a href="${prefix}contact" class="button">Skontaktuj się ze mną</a>
                 </li>
               </ul>
             </div>
