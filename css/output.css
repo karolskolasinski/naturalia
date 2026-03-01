@@ -435,6 +435,9 @@
   .list-inside {
     list-style-position: inside;
   }
+  .list-image-\[url\(\.\.\/img\/icons\/check\.svg\)\] {
+    list-style-image: url(../img/icons/check.svg);
+  }
   .list-image-\[url\(\/img\/icons\/check\.svg\)\] {
     list-style-image: url(/img/icons/check.svg);
   }
