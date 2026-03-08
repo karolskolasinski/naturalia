@@ -11,16 +11,26 @@
     --font-modern-symphony: "Modern Symphony";
     --font-sans: "Lato", sans-serif;
     --font-montserrat: "Montserrat", sans-serif;
-    --color-primary-50: #f8fdf0;
-    --color-primary-100: #f1f9e3;
-    --color-primary-200: #e2f2c4;
-    --color-primary-300: #c9e891;
-    --color-primary-400: #addd5a;
-    --color-primary-500: #88c919;
-    --color-primary-600: #6ea314;
-    --color-primary-700: #527a0f;
-    --color-primary-800: #37510a;
-    --color-primary-900: #1b2905;
+    --color-primary-50: #f9fcf5;
+    --color-primary-100: #f2f8ea;
+    --color-primary-200: #e4f0d2;
+    --color-primary-300: #cfe5b0;
+    --color-primary-400: #b8d88b;
+    --color-primary-500: #9fca68;
+    --color-primary-600: #83a955;
+    --color-primary-700: #658243;
+    --color-primary-800: #475c31;
+    --color-primary-900: #2a361e;
+    --animate-wave: wave 2s ease-in-out infinite;
+
+    @keyframes wave {
+        0%, 100% {
+            transform: translateY(0%);
+        }
+        50% {
+            transform: translateY(-10%);
+        }
+    }
 }
 
 ::selection {
@@ -28,29 +38,17 @@
 }
 
 .wave {
-    display: inline-block;
-    animation: wave 2s ease-in-out infinite;
+    @apply inline-block animate-wave;
 }
 
 .wave-offset-1 {
-    display: inline-block;
-    animation: wave 2s ease-in-out infinite;
+    @apply inline-block animate-wave;
     animation-delay: -.2923s;
 }
 
 .wave-offset-2 {
-    display: inline-block;
-    animation: wave 2s ease-in-out infinite;
+    @apply inline-block animate-wave;
     animation-delay: -.6784s;
-}
-
-@keyframes wave {
-    0%, 100% {
-        transform: translateY(0%);
-    }
-    50% {
-        transform: translateY(-10%);
-    }
 }
 
 .button {
