@@ -32,7 +32,7 @@ class Footer extends HTMLElement {
             </div>
       
             <div class="flex flex-col gap-4 flex-1">
-              <h2 class="text-primary-400 text-2xl font-bold">Kontakt</h2>
+              <h2 class="text-primary-300 text-2xl font-bold">Kontakt</h2>
       
               <div class="flex gap-2 items-center items-start">
                 <img src="img/icons/map-marker.svg" alt="adres" class="w-6 xs:w-7 brightness-0 invert" />
@@ -55,7 +55,7 @@ class Footer extends HTMLElement {
             </div>
       
             <div class="flex-1">
-              <h2 class="text-primary-400 text-2xl font-bold">Obserwuj</h2>
+              <h2 class="text-primary-300 text-2xl font-bold">Obserwuj</h2>
       
               <div class="flex gap-4 pt-4">
                 <a href="https://www.facebook.com/">

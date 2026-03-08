@@ -34,7 +34,11 @@
 }
 
 ::selection {
-    @apply bg-primary-400;
+    @apply bg-primary-100;
+}
+
+footer ::selection {
+    @apply bg-primary-700;
 }
 
 .wave {
