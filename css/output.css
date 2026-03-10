@@ -1297,9 +1297,9 @@
       gap: calc(var(--spacing) * 6);
     }
   }
-  .xl\:pb-20 {
+  .xl\:pb-14 {
     @media (width >= 80rem) {
-      padding-bottom: calc(var(--spacing) * 20);
+      padding-bottom: calc(var(--spacing) * 14);
     }
   }
   .xl\:text-2xl {
@@ -1324,6 +1324,11 @@
     @media (width >= 80rem) {
       font-size: var(--text-xl);
       line-height: var(--tw-leading, var(--text-xl--line-height));
+    }
+  }
+  .\32 xl\:flex {
+    @media (width >= 96rem) {
+      display: flex;
     }
   }
   .\32 xl\:pb-\[10\%\] {
