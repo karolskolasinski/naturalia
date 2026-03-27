@@ -855,6 +855,9 @@
   .font-montserrat {
     font-family: var(--font-montserrat);
   }
+  .font-montserrat\! {
+    font-family: var(--font-montserrat) !important;
+  }
   .font-sans {
     font-family: var(--font-sans);
   }
@@ -969,6 +972,9 @@
   }
   .text-primary-700 {
     color: var(--color-primary-700);
+  }
+  .text-primary-900 {
+    color: var(--color-primary-900);
   }
   .text-sky-400 {
     color: var(--color-sky-400);
